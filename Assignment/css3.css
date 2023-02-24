@@ -1,0 +1,63 @@
+.box{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-color: #141415;
+    top: 50px;
+    left: 500px;
+    border-radius: 9px;
+  color: #f0e2cb;
+}
+body{
+    background-color: black;
+}
+.chu{
+    position: absolute;
+    top: 10px;
+    left:130px;
+}
+.chu2{
+    position: absolute;
+    top: 90px;
+    left:20px;
+    background-color: #28282a;
+}
+.chu3{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.chu4{
+  position: absolute;
+  top: 150px;
+    left: 20px;
+    width: 363px;
+    height: 40px;
+    border-radius: 9px;
+}
+.logo1{
+  
+    position: absolute;
+    top: 230px;
+    left: 140px;
+    width: 50px;
+    height: 49px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+}
+.chu5{
+    position: absolute;
+  top: 205px;
+    left: 115px;
+
+}
+.logo2{
+  
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+}

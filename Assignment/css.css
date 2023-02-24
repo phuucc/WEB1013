@@ -1,0 +1,87 @@
+p>img{
+    width: 150px;
+    float: left;
+    background-color: yellow;
+    box-shadow: 5px 5px green;
+}
+p>img:hover{
+    box-shadow: 5px 5px red;
+    background-color: aqua;
+
+}
+div>img{
+background-color: blue;
+box-shadow: 5px 5px 5px olive;
+}
+div>img:hover{
+    box-shadow: 5px 5px 5px red;
+     background-color: aqua;
+}
+b>img{
+    width: 130px;
+    height: 100px;
+  box-shadow: 5px 5px 5px 5px red;
+  background-color: aquamarine;
+}
+img:hover{
+    box-shadow: 5px 5px 5px orange;
+    background-color: pink;
+}
+h2{
+    color: white;
+}
+.box1{
+    margin-left: 400px;
+    margin-top: 1px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    float: right;
+}
+a>:hover{
+    background-color: aqua;
+}
+footer{
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: black;
+    display: flex;
+  
+}
+.zoom {
+    
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);}
+.cot{
+    width: 50%;
+    height: 200px;
+    float: left;
+}

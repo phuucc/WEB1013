@@ -1,0 +1,22 @@
+.td{
+    color: blue;
+    font-weight: bold;
+}
+.tong{
+    width: 800px;
+    height: 500px ;
+}
+.video{
+    width: 650px;
+    height: 350px;
+    margin-right: 10px;
+    float: left;
+
+}
+.anh{
+    width: 140px;
+    height: 100px;
+    margin-bottom: 20px;
+    float: left;
+    
+}
